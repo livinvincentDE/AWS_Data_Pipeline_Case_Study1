@@ -6,7 +6,40 @@ This project demonstrates an end-to-end data engineering pipeline using AWS serv
 
 ## 🧱 Architecture
 
-S3 → Glue → Athena
+## 🧱 Architecture
+
+```
+          ┌──────────────┐
+          │   S3 (Raw)   │
+          │  JSON Data   │
+          └──────┬───────┘
+                 ↓
+        ┌──────────────────┐
+        │ Glue Crawler     │
+        │ Schema Inference │
+        └──────┬───────────┘
+               ↓
+     ┌──────────────────────┐
+     │ Glue Data Catalog    │
+     │ Table: raw           │
+     └──────┬───────────────┘
+            ↓
+     ┌──────────────────────┐
+     │ Glue ETL Job         │
+     │ PySpark Transform    │
+     └──────┬───────────────┘
+            ↓
+     ┌──────────────────────┐
+     │ S3 (Processed)       │
+     │ Parquet (Partitioned)│
+     └──────┬───────────────┘
+            ↓
+     ┌──────────────────────┐
+     │ Amazon Athena        │
+     │ SQL Analytics        │
+     └──────────────────────┘
+```
+
 
 ## ⚙️ Tech Stack
 
