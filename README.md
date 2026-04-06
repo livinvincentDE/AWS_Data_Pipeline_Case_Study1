@@ -2,11 +2,11 @@
 
 ## ⚙️ Tech Stack
 
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
-![Amazon S3](https://img.shields.io/badge/Amazon%20S3-Storage-blue?logo=amazon-s3)
-![AWS Glue](https://img.shields.io/badge/AWS%20Glue-ETL-orange?logo=amazonaws)
-![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-yellow?logo=apache-spark)
-![Athena](https://img.shields.io/badge/Amazon%20Athena-Query-blue?logo=amazonaws)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/AWS%20Glue-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
+![Amazon Athena](https://img.shields.io/badge/Amazon%20Athena-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ## 📌 Overview
 
