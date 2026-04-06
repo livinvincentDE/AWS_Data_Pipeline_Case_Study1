@@ -6,8 +6,6 @@ This project demonstrates an end-to-end data engineering pipeline using AWS serv
 
 ## 🧱 Architecture
 
-## 🧱 Architecture
-
 ```
           ┌──────────────┐
           │   S3 (Raw)   │
