@@ -1,5 +1,13 @@
 # 🚀 Data Engineering in AWS
 
+## ⚙️ Tech Stack
+
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-Storage-blue?logo=amazon-s3)
+![AWS Glue](https://img.shields.io/badge/AWS%20Glue-ETL-orange?logo=amazonaws)
+![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-yellow?logo=apache-spark)
+![Athena](https://img.shields.io/badge/Amazon%20Athena-Query-blue?logo=amazonaws)
+
 ## 📌 Overview
 
 This project demonstrates an end-to-end data engineering pipeline using AWS services.
@@ -37,14 +45,6 @@ This project demonstrates an end-to-end data engineering pipeline using AWS serv
      │ SQL Analytics        │
      └──────────────────────┘
 ```
-
-
-## ⚙️ Tech Stack
-
-* AWS S3
-* AWS Glue
-* PySpark
-* Athena
 
 ## 🔄 Features
 
