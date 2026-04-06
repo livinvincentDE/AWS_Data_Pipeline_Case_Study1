@@ -1,5 +1,3 @@
-# 🚀 Data Engineering in AWS
-
 ## ⚙️ Tech Stack
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
