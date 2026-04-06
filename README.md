@@ -61,6 +61,7 @@ This project demonstrates an end-to-end data engineering pipeline using AWS serv
 
 ## 📊 Use Case
 
+Ingestion → Transformation → Analytics
 Analyze sales data by country and date.
 
 ## 👨‍💻 Author
